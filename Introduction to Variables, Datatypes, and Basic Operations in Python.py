@@ -9,56 +9,9 @@
 #-----------------Assignment: Saving a value to a variable
 
 
-# Practice Work
-a = int(input("Enter a number: "))
-b = int(input("Enter a number: "))
-c = a + b
-print(c)
-
-# Type Casting
-a = int("4")
-b = 7
-print(a + b)
-
-a, b = 2, "4.3"
-c = float(b)
-sum = a + c
-print(sum)
-
-# ---- Logical Operator ----
-a = input("Enter a number: ")
-b = input("Enter a number: ")
-
-# Comparing values
-print(f"Is {a} equal to {b}? {a == b}")
-print(f"Is {a} not equal to {b}? {a != b}")
-print(f"Is {a} greater than {b}? {a > b}")
-print(f"Is {a} less than {b}? {a < b}")
-print(f"Is {a} greater than or equal to {b}? {a >= b}")
-print(f"Is {a} less than or equal to {b}? {a <= b}")
-
-# Getting user's name
-name = input("What is your name? ")
-print(f"Hello, {name}!")
-
-# Arithmetic Operations
-A, B = 12, 5
-C = A / B
-print(f"Division result of {A} and {B}: {C}")
-
-C = A // B  # Floor division
-print(f"Floor division result of {A} and {B}: {C}")
-print(f"Expression A + B * C result: {A + B * C}")
-
-# Simple arithmetic operations
-a, b = 3, 32
-print(f"Sum: {a + b}")
-print(f"Difference: {a - b}")
-print(f"Product: {a * b}")
-print(f"Division: {a / b}")
-
 # Print statements
 print("Hello World!")
+
 print("My name is Umair, and I am a student.")
 print(f"23 + 33 = {23 + 33}")
 
@@ -127,3 +80,53 @@ print(s.find("World"))
 s = "Hello, World!"
 print(s.startswith("Hello"))  # Output: True
 print(s.endswith("!"))  # Output: True
+
+
+
+# Practice Work
+a = int(input("Enter a number: "))
+b = int(input("Enter a number: "))
+c = a + b
+print(c)
+
+# Type Casting
+a = int("4")
+b = 7
+print(a + b)
+
+a, b = 2, "4.3"
+c = float(b)
+sum = a + c
+print(sum)
+
+# ---- Logical Operator ----
+a = input("Enter a number: ")
+b = input("Enter a number: ")
+
+# Comparing values
+print(f"Is {a} equal to {b}? {a == b}")
+print(f"Is {a} not equal to {b}? {a != b}")
+print(f"Is {a} greater than {b}? {a > b}")
+print(f"Is {a} less than {b}? {a < b}")
+print(f"Is {a} greater than or equal to {b}? {a >= b}")
+print(f"Is {a} less than or equal to {b}? {a <= b}")
+
+# Getting user's name
+name = input("What is your name? ")
+print(f"Hello, {name}!")
+
+# Arithmetic Operations
+A, B = 12, 5
+C = A / B
+print(f"Division result of {A} and {B}: {C}")
+
+C = A // B  # Floor division
+print(f"Floor division result of {A} and {B}: {C}")
+print(f"Expression A + B * C result: {A + B * C}")
+
+# Simple arithmetic operations
+a, b = 3, 32
+print(f"Sum: {a + b}")
+print(f"Difference: {a - b}")
+print(f"Product: {a * b}")
+print(f"Division: {a / b}")
